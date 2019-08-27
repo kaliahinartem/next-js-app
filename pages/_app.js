@@ -1,6 +1,7 @@
-import React from 'react'
-import App from 'next/app'
-import '../index.css'
+import React from "react";
+import App from "next/app";
+import "../index.css";
+import Terms from "./terms";
 
 class MyApp extends App {
     // Only uncomment this method if you have blocking data requirements for
@@ -16,9 +17,14 @@ class MyApp extends App {
     // }
 
     render() {
-        const { Component, pageProps } = this.props
-        return <Component {...pageProps} />
+        const { Component, pageProps } = this.props;
+        return (
+            <main>
+                <Component {...pageProps} />
+								<Terms>Kalyaga 2019 EEE </Terms>
+            </main>
+        );
     }
 }
 
-export default MyApp
+export default MyApp;
