@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'RemachineScript_Personal_Use';
+  src: url('static/fonts/RemachineScript_Personal_Use.eot');
+  src: url('static/fonts/RemachineScript_Personal_Use.eot') format('embedded-opentype'),
+  url('static/fonts/RemachineScript_Personal_Use.woff2') format('woff2'),
+  url('static/fonts/RemachineScript_Personal_Use.woff') format('woff'),
+  url('static/fonts/RemachineScript_Personal_Use.ttf') format('truetype'),
+  url('static/fonts/RemachineScript_Personal_Use.svg#RemachineScript_Personal_Use') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Mitr';
+  src: url('static/fonts/MitrLight.eot');
+  src: url('static/fonts/MitrLight.eot') format('embedded-opentype'),
+  url('static/fonts/MitrLight.woff2') format('woff2'),
+  url('static/fonts/MitrLight.woff') format('woff'),
+  url('static/fonts/MitrLight.ttf') format('truetype'),
+  url('static/fonts/MitrLight.svg#MitrLight') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('static/fonts/MontserratRegular.eot');
+  src: url('static/fonts/MontserratRegular.eot') format('embedded-opentype'),
+  url('static/fonts/MontserratRegular.woff2') format('woff2'),
+  url('static/fonts/MontserratRegular.woff') format('woff'),
+  url('static/fonts/MontserratRegular.ttf') format('truetype'),
+  url('static/fonts/MontserratRegular.svg#MontserratRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('static/fonts/MontserratSemiBold.eot');
+  src: url('static/fonts/MontserratSemiBold.eot') format('embedded-opentype'),
+  url('static/fonts/MontserratSemiBold.woff2') format('woff2'),
+  url('static/fonts/MontserratSemiBold.woff') format('woff'),
+  url('static/fonts/MontserratSemiBold.ttf') format('truetype'),
+  url('static/fonts/MontserratSemiBold.svg#MontserratSemiBold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('static/fonts/MontserratBold.eot');
+  src: url('static/fonts/MontserratBold.eot') format('embedded-opentype'),
+  url('static/fonts/MontserratBold.woff2') format('woff2'),
+  url('static/fonts/MontserratBold.woff') format('woff'),
+  url('static/fonts/MontserratBold.ttf') format('truetype'),
+  url('static/fonts/MontserratBold.svg#MontserratBold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('static/fonts/MontserratExtraBold.eot');
+  src: url('static/fonts/MontserratExtraBold.eot') format('embedded-opentype'),
+  url('static/fonts/MontserratExtraBold.woff2') format('woff2'),
+  url('static/fonts/MontserratExtraBold.woff') format('woff'),
+  url('static/fonts/MontserratExtraBold.ttf') format('truetype'),
+  url('static/fonts/MontserratExtraBold.svg#MontserratExtraBold') format('svg');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-size: 50px;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif,
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

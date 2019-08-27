@@ -1,0 +1,23 @@
+{
+  "name": "dating-blog-next",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "autoprefixer": "^9.6.1",
+    "next": "^9.0.5",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-url": "^8.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
